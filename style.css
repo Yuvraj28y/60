@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: #029689;
+}
+h1{
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 600px;
+        
+}
+#app{
+    width: 100%;
+    height: 800px;
+    background-color: dodgerblue;
+    
+}
+#game{
+    width: 100%;
+    height: 800px;
+    background-color: mediumseagreen;
+    
+}
+#chat{
+    width: 100%;
+    height: 800px;
+    background-color: royalblue;
+    
+}
+img{
+    transition: transform .2s;
+    
+    
+}
+img:hover{
+    transform:scale(0.9)
+    
+}
+.line{
+    height: 6px;
+    background-color: white;
+    width: 100%;
+    margin: 8px auto;
+    
+}
